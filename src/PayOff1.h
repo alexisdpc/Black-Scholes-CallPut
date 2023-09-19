@@ -8,9 +8,9 @@
 class PayOff
 {
 public:
-  enum OptionType {call, put, digital}; // Distinguish between differet payoffs
-  PayOff(double Strike_, OptionType TheOptionsType_); //Constructor
-  double operator()(double Spot) const;
+  enum OptionType {call, put, digital}; // Use enumeration to distinguish between differet payoffs
+  PayOff(double Strike_, OptionType TheOptionsType_); // Constructor
+  double operator()(double Spot) const; // Overrides operator ()
 
 // User cannot access the strike
 private:
