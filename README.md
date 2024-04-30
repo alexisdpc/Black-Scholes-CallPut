@@ -1,6 +1,6 @@
 # Black-Scholes option pricing
 
-We implement the pricing of a Call/Put/Digital option in C++.
+We implement the pricing of a Call/Put/Digital option in C+++.
 
 To generate random numbers from a Gaussian distribution we use the Box-Muller transformation.\
 Let $u$ and $v$ independent samples from the uniform distribution in [-1,1]. Let
